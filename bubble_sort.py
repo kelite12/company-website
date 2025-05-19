@@ -20,7 +20,7 @@ def bubble_sort(arr):
 # 测试代码
 if __name__ == "__main__":
     # 测试用例
-    test_list = [90, 80, 10, 97, 76, 66]
+    test_list = [90, 80, 10, 98, 76, 66]
     print("原始列表:", test_list)
     
     sorted_list = bubble_sort(test_list)
