@@ -41,7 +41,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">联系方式</h3>
             <ul className="space-y-2 text-gray-300">
               <li>电话：137052344438</li>
-              <li>地址：江苏省淮安市盱眙县</li>
+              <li>地址：江苏省淮安市盱眙盱城街道99号宣化人家24A幢106室</li>
               <li>邮编：211700</li>
             </ul>
           </div>

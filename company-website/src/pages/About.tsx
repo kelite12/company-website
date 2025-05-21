@@ -10,12 +10,12 @@ const About = () => {
             关于我们
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-xl text-gray-500">
-            金源实验器材是一家专业从事化学试剂、玻璃仪器、橡胶塞等实验器材销售的企业，秉承"顾客至上，锐意进取"的经营理念，为广大客户提供优质服务。
+            江苏省盱眙县金源实验器材销售服务部位于江苏盱眙县，主营化学试剂、玻璃仪器、橡胶塞、橡皮塞、瓶塞、管塞等。公司秉承"顾客至上，锐意进取"的经营理念，坚持"客户第一"的原则为广大客户提供优质服务。
           </p>
         </div>
       </div>
 
-      {/* Company History */}
+      {/* Company Information */}
       <div className="bg-gray-50 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
@@ -44,7 +44,7 @@ const About = () => {
                 },
                 {
                   title: '主营产品',
-                  description: '橡胶塞、橡皮塞、瓶塞、管塞、玻璃仪器、化学试剂、化工',
+                  description: '橡胶塞、橡皮塞、瓶塞、管塞、玻璃仪器、化学试剂、化工原料',
                 },
               ].map((info) => (
                 <div key={info.title} className="relative">
@@ -63,7 +63,7 @@ const About = () => {
         </div>
       </div>
 
-      {/* Company Values */}
+      {/* Contact Information */}
       <div className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -75,19 +75,23 @@ const About = () => {
             </p>
           </div>
 
-          <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {[
+              {
+                title: '联系人',
+                description: '杨晓红',
+              },
               {
                 title: '联系电话',
                 description: '137052344438',
               },
               {
-                title: '公司地址',
-                description: '江苏省淮安市盱眙县',
+                title: '电子邮箱',
+                description: '935054828@QQ.com',
               },
               {
-                title: '邮政编码',
-                description: '211700',
+                title: '公司地址',
+                description: '江苏省淮安市盱眙盱城街道99号宣化人家24A幢106室',
               },
             ].map((contact) => (
               <div
